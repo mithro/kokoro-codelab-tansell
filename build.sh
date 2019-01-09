@@ -5,6 +5,8 @@ set -e
 # Display commands being run.
 set -x
 
+echo "Hello!"
+
 if [ "$1" == "release" ]; then
   javac -g:none Hello.java
 else
